@@ -13,7 +13,7 @@
 1. Go to <https://script.google.com/>. Make sure you're signed in with the Google account where you want to restore the trash.
 2. Create a new project.
 3. Paste the contents of <rescue-gdrive-trash.gs> into the editor.
-4. This script logs details about the items in the trash to the log. The main reason for this that after items are moved out of the trash, information about where the item was originally located is lost. It is recommended to set up the  BetterLog, which persists logs to a spreadsheet.
+4. This script logs details about the items in the trash to the log. The main reason for this that after items are moved out of the trash, information about where the item was originally located is lost. It is recommended to set up the BetterLog library, which persists logs to a spreadsheet.
     1. Follow these instructions to add the BetterLog library: <https://github.com/peterherrmann/BetterLog#setup>
     2. Create a new spreadsheet, and paste the spreadsheet ID (in the URL) over `LOG_SPREADSHEET_ID_HERE`.
     - Alternatively, if you are sure you don't want to use BetterLog, just comment out the BetterLog line. If you do this, note that this script will destroy information about where the trashed items were originally located.
